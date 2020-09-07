@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+.title {
+  display: inline;
+}
+.menu {
+  display: inline-block;
+}
+.list {
+  display: inline-flex;
+}
+.link {
+  display: inline-block;
+}
+.header {
+  background-color: #009d8d;
+  color: white;
+}
+.text-link {
+  background-color: #009d8d;
+  color: white;
+}
