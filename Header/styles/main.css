@@ -1,23 +1,77 @@
+/* reset styles */
+
 * {
+  margin: 2px;
   box-sizing: border-box;
 }
-.title {
-  display: inline;
+/* flexbox de cabecera */
+.header {
+  background-color: #009d8d;
+  color: white;
+  opacity: 0.95;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; /*revisar si space-evenly, aunque creo que no  */
+  align-items: center;
 }
-.menu {
+
+/* a continuacion defino los estilos del titulo */
+.title {
+  width: 160px;
+  height: 30px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: white; /* que no se me olvide poner variable */
+  margin-left: 142px;
+  /* no se si poner margin right porque la medida en pixeles que da influye en funcion del tamaño del titulo */
+  margin-top: 15;
+  margin-bottom: 15;
+}
+
+/* flebox de nav -ul */
+
+.list {
+  box-sizing: border-box;
+  background: #009d8d;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 138px;
+}
+
+/* .link{
+  display:inline
+} */
+
+.list {
+  margin-bottom: 16px;
+  margin-top: 16px;
+  padding-left: 0px;
+}
+
+.link.link1,
+.link.link2 {
+  margin-right: 18px;
+}
+.text-link {
+  background-color: #009d8d;
+  color: white; /* me queda darle tipo de letra, opacidad y etc */
+}
+
+/* .menu {
   display: inline-block;
 }
 .list {
   display: inline-flex;
 }
 .link {
-  display: inline-block;
-}
-.header {
-  background-color: #009d8d;
-  color: white;
-}
-.text-link {
-  background-color: #009d8d;
-  color: white;
-}
+  display: inline-block; */
